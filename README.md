@@ -31,11 +31,14 @@ For more installation instructions, visit [yarnpkg.com](https://yarnpkg.com/lang
 
 ### Clone the project
 
-`git clone git@github.com:BenoitSauvage/gender-neutral-dating-app.git`
+`git clone https://github.com/BenoitSauvage/gender-neutral-dating-app.git`
 
 ### Install project dependencies
 
-`yarn install`
+```
+cd gender-neutral-dating-app
+yarn install
+```
 
 ### Start the project
 
