@@ -5,10 +5,29 @@
 ### Prerequisites
 
 - #### NodeJs
-To install NodeJs, visit [nodejs.org](https://nodejs.org/en/download/)
+>- MacOS X:
+```
+brew install nodejs
+```
+
+>- Ubuntu/Debian:
+```
+apt-get install nodejs
+```
+
+>- CentOS:
+```
+yum install -y gcc-c++ make
+curl -sL https://rpm.nodesource.com/setup_10.x | sudo -E bash -
+sudo yum install nodejs
+```
+
+For more installation instructions visit [nodejs.org](https://nodejs.org/en/download/)
 
 - ### Yarn
-To install Yarn, visit [yarnpkg.com](https://yarnpkg.com/lang/en/docs/install/)
+`curl -o- -L https://yarnpkg.com/install.sh | bash`
+
+For more installation instructions, visit [yarnpkg.com](https://yarnpkg.com/lang/en/docs/install/)
 
 ### Clone the project
 
